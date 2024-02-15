@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1669633119 source:z:\mes documents\c\sae\sae-c-1\sae\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1673198439 source:c:\users\33785\onedrive\documents\iut\c\sea\sae\sae-c\sae\main.c
+	"fonction.h"
+	<stdio.h>
+	<stdlib.h>
+
+1673200331 c:\users\33785\onedrive\documents\iut\c\sea\sae\sae-c\sae\fonction.h
+
+1673199649 source:c:\users\33785\onedrive\documents\iut\c\sea\sae\sae-c\sae\fonction.c
+	"fonction.h"
+	<stdio.h>
+	<stdlib.h>
+

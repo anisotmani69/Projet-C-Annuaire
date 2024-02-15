@@ -1,0 +1,22 @@
+         dépôt local                           dépôt distant
+         ___________                           ____________
+        |       .git| <---git--clone-@https-- |       .git |
+Au début|    main.c |                         |            |
+        |___________| --add--remote-+-push--> |____________|
+                      <--échange-de-commit-->
+
+                     <======
+                      git pull origin main
+            
+en travail           ======>                               _
+                      git add fichier_modifiées             |création d'un nouveau commit local//vous dissiez que vous aviez changé quelque chose
+                      git commit-m"message descriptif"     _|
+                      git push origin main:main             |envoi de la commit sur le dépôt distant //vous l'envoiez vers forge
+                            | (dépôt local : dépôt distant)_|
+                            |
+                            |-> ou (si il n'ya pas plusieurs branches) utiliser git push origin main
+
+savons si remote(dépot distant) biens paramêtré en local:
+        git remote -v => liste des remotes
+connaître la liste des bron des distantes
+        git branch --remote
